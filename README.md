@@ -61,6 +61,11 @@ words, which is a bit less than two tweets. this ensures that taking notes does
 not feel like the beginning of some daunting task (similar to how this readme
 felt to start).
 
+i also love the zettelkasten system because it's not necessary to name notes.
+being able to immediately jump into the meat and potatoes of a new note seems
+like a great way to ensure i stay in a flow state while learning. any added
+tasks up-front take away from this.
+
 recently, I also transitioned to using neovim full time. with this, i learned
 the power of plugins, and i wrote a few simple, scrappy plugins that customize
 my workflow to perfection. one plugin that im still actively brainstorming
@@ -104,8 +109,7 @@ it has been captured
     * question
     * answer
     * source
-1. The content of a note should not exceed 100 words.
-1. Each `concept` node must include a link to a source
-1. Each idea/question must link back to at least a single concept
-1. Each answer must link back to a question
-1. 
+1. The content of a note should not exceed 400 characters.
+1. Each "concept" note must include a `source` link
+1. Each note, except a "source" note, must have an `origin` link
+1. Each "source" note must include `reference` meta
